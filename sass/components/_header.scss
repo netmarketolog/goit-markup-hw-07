@@ -10,12 +10,12 @@
     transform: translate( -50%, 0%);
     z-index: 1;
     content: '';
-    &__menu {
+    &__container {
         display: flex;
         align-items: center;
         border-bottom: none;
     }
-    &__nav-flex {
+    &__navigation {
         display: flex;
         align-items: center;
     }
@@ -85,7 +85,7 @@
     align-items: center;
 }
 
-.auth-nav__iteam:first-child {
+.auth-nav__item:first-child {
     margin-right: 50px;
 }
 

@@ -1,9 +1,5 @@
 /* Team */
 
-.team-section {
-    background-color: var(--bac-secondary-color);
-}
-
 .team {
     display: flex;
     &__item {
@@ -34,14 +30,19 @@
         margin-top: 0;
         margin-bottom: 0;
     }
-    &__social {
-        display: flex;
-        justify-content: center;
-        margin-top: 16px;
-    }
 }
 
-.team__link-social {
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social__link {
     margin: 0;
     padding: 0;
     width: 44px;
@@ -62,11 +63,7 @@
     }
 }
 
-.team_icon:not(:last-child) {
-    margin-right: 10px;
-}
-
-.team__svg {
+.social__svg {
     width: 20px;
     height: 20px;
 }

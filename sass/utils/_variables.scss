@@ -59,7 +59,7 @@ a {
     text-decoration: none
 }
 
-.section__visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -93,5 +93,11 @@ a {
         letter-spacing: 0.03em;
         margin-top: 0;
         margin-bottom: 50px;
+    }
+    &--no-padding-top {
+        padding-top: 0;
+    }
+    &--white {
+        background-color: var(--bac-secondary-color);
     }
 }
